@@ -49,14 +49,53 @@
 			          <a class="nav-link nav-text" aria-current="page" href="employers.html">For employers</a>
 			        </li>
 			        <li class="nav-item active">
-			          <a class="nav-link nav-text" href="#">Sign in</a>
+			          <a class="nav-link nav-text" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Sign in</a>
 			        </li>
 			      </ul>
 			    </div>
 			  </div>
 			</nav>
 		<div>
-	 
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-md">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title tradewind center-thing" id="exampleModalLabel">SIGN IN</h5>
+			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      </div>
+			      <div class="modal-body center-thing">
+					   <form action="/action_page.php">
+					       <div class="form-floating mb-3">
+							  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+							  <label for="floatingInput">Username</label>
+							</div>
+							<div class="form-floating mb-3">
+							  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+							  <label for="floatingPassword">Password</label>
+							</div>
+						<div class="center-thing">
+					     <a href="jobs.html" class="btn rounded-pill details-btn">Sign in</a>
+					    </div>
+					    <div class="container my-3">
+					       <label>
+					       <input type="checkbox"  checked="checked" name="remember"> Remember me
+					       </label>
+					       <span class="psw"><a href="#"> Forgot password?</a></span>
+					    </div>
+					    <div class="container">
+					     <h6 class="tradewind my-3"> OR </h6>
+					    <div class="container center-thing">
+					     <a href="sign_up.html" class="btn rounded-pill details-btn">Sign up</a>
+					    </div>
+					    </div>
+					   </form>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-outline-secondary rounded-pill" data-bs-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
 	<!--  Search Bar -->	
 		<section class="search-sec sticky-top">
 		    <div class="container col-lg-8">

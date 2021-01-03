@@ -267,6 +267,12 @@ html, body {
 	margin:auto;
 	text-align:left;
 }
+.center-thing{
+	display: flexbox;
+	justify-content:center;
+	margin:auto;
+	text-align:center;
+}
 .job-listing{
 	font-family: Inter;
 	font-style: normal;
@@ -556,4 +562,21 @@ html, body {
 .details-btnh:hover{
 	   	box-shadow: 2px 2px;
 	   	transform: translateY(-0.10em)
+}
+
+/* post_job */
+
+.post-job{
+	background-color: #ffffff;
+}
+.post-job-input{
+	background-color: #F9FEFE;
+}
+
+/* sign_up page */
+
+.sign-up-input{
+	width:100%;
+	padding-top:10%;
+	padding-bottom:10%;
 }
