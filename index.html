@@ -142,7 +142,7 @@
 				to fullfilling careers <br>
 				start at JOBS BOARD</p>
 				<div class= "start-now-div">
-					<a href="sign_up.html" class="btn rounded-pill start-now">Start Now</a>
+					<a href="jobs.html" class="btn rounded-pill start-now">Start Now</a>
 				</div>
 			</div>
 			<div class="col-lg-7">
@@ -231,17 +231,41 @@
 		
 			<div class="container">
 				<div class="mail-list">
-					<h2 class="hed-2">Lorem ipsum dolor sit amet</h2>
+					<h2 class="hed-2 tradewind">Get job Alerts</h2>
 					<p class="par-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper augue eu<br>elementum. Sed ac arcu lorem. Mauris placerat ante ante, sed sollicitudin dolor<br>fermentum varius.</p>
-					<a href="#" class="btn rounded-pill mail-button">Get Job Alerts</a>
+					<a href="#" class="btn rounded-pill mail-button" data-bs-toggle="modal" data-bs-target="#subsModal" href="#">Get Job Alerts</a>
 				</div>     
 			</div>
+			<div class="modal fade" id="subsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-md">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title tradewind center-thing" id="exampleModalLabel">Subscribe to our job alerts via email</h5>
+			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      </div>
+			      <div class="modal-body center-thing">
+					   <form action="/action_page.php">
+					       <div class="form-floating mb-3">
+							  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+							  <label for="floatingInput">Full name</label>
+							</div>
+							<div class="form-floating mb-3">
+							  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+							  <label for="floatingPassword">Email</label>
+							</div>
+						<div class="center-thing">
+					     <a href="index.html" class="btn rounded-pill details-btn">Subscribe</a>
+					    </div>
+					   </form>
+			      </div>
+			     </div>
+			    </div>
 		
 		</div>
 	
 	<!-- Footer section -->
 	
-		<footer class="footer">
+		<footer class="footer bg-dark">
 		
 			<div class="container" style="display: flexbox; justify-content:center; margin:auto; text-align:center; padding-bottom:20px;">
 				<a href="index.html" class="Header-logo">
@@ -253,8 +277,8 @@
 					<h6>About</h6>
 					<div id="list-menu-footer">
 					<ul>
-					<li><a class="tradewind" href="#">Our story</a></li>
-					<li><a class="tradewind" href="#">Media</a></li>
+					<li><a class="tradewind" href="story.html">Our story</a></li>
+					<li><a class="tradewind" href="media.html">Media</a></li>
 					</ul>
 					</div>
 				</div>
@@ -262,8 +286,8 @@
 					<h6>Legal</h6>
 					<div id="list-menu-footer">
 					<ul>
-					<li><a class="tradewind" href="#">Term of use</a></li>
-					<li><a class="tradewind" href="#">Privacy policy</a></li>
+					<li><a class="tradewind" href="tou.html">Term of use</a></li>
+					<li><a class="tradewind" href="policy.html">Privacy policy</a></li>
 					</ul>
 					</div>
 				</div>
@@ -271,8 +295,8 @@
 					<h6>Support</h6>
 					<div id="list-menu-footer">
 					<ul>
-					<li><a class="tradewind" href="#">JB Support</a></li>
-					<li><a class="tradewind" href="#">FAQS</a></li>
+					<li><a class="tradewind" href="support.html">JB Support</a></li>
+					<li><a class="tradewind" href="faqs.html">FAQS</a></li>
 					</ul>
 					</div>
 				</div>

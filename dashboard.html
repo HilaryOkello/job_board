@@ -49,8 +49,14 @@
 			          <a class="nav-link nav-text" aria-current="page" href="services.html">Services</a>
 			        </li>
 			        <li class="nav-item active">
-			          <a class="nav-link nav-text" href="#">Profile</a>
-			        </li>
+			        <div class="dropdown">
+			          <a class="nav-link nav-text dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Profile</a>
+			         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+					    <li><a class="dropdown-item" href="cprofile.html">Profile</a></li>
+					    <li><a class="dropdown-item" href="employers.html">Logout</a></li>
+					  </ul>
+				   </div> 			       
+				   </li>
 			      </ul>
 			    </div>
 			  </div>
@@ -63,20 +69,19 @@
             <ul class="sidebar-nav">
                 
                 <li style="padding-top:10px; padding-bottom:10px;">
-					<div class="center-things">
+					<div class="my-3">
 					  	<img src="images/autodesk.png" class="rounded-circle" alt="logo" width="75" height="75">
 						<h6>Autodesk Inc.</h6>
 					</div>                
 				</li>
-                
-                <li style="padding-top:10px; padding-bottom:10px;">
-					<a href="#"class="btn rounded-pill float-left details-btnh">Dashboard</a>
-                </li>
                 <li style="padding-top:10px; padding-bottom:10px;">
 					<a href="post_job.html"class="btn rounded-pill float-left details-btnh">Add a Job</a>
                 </li>
                 <li style="padding-top:10px; padding-bottom:10px;">
-					<a href="#"class="btn rounded-pill float-left details-btnh">Profile</a>
+					<a href="cprofile.html"class="btn rounded-pill float-left details-btnh">Profile</a>
+                </li>
+                <li style="padding-top:10px; padding-bottom:10px;">
+					<a href="cuprofile.html"class="btn rounded-pill float-left details-btnh">Update profile</a>
                 </li>
                 <li style="padding-top:10px; padding-bottom:10px;">
 					<a href="employers.html"class="btn rounded-pill float-left details-btnh">Logout</a>
@@ -239,6 +244,7 @@
 		</div>
 	</div>
 	<div class="collapse" id="collapseExample">
+				<h6 class="tradewind">JOB TITLE applications</h6>
 		<div class="row align-items-center py-2 position-relative border-bottom border-200">
 			<div class="row col-lg-3 col-sm-12">
 				<h6 class="tradewind">Full name</h6>
@@ -288,10 +294,10 @@
 		
 
 	
-		<footer class="footer">
+		<footer class="footer bg-dark">
 		
 			<div class="container" style="display: flexbox; justify-content:center; margin:auto; text-align:center; padding-bottom:20px;">
-				<a href="/" class="Header-logo">
+				<a href="index.html" class="Header-logo">
 				<img src="images/logo.svg" alt="JOBS BOARD">
 				</a>
 			</div>
@@ -300,8 +306,8 @@
 					<h6>About</h6>
 					<div id="list-menu-footer">
 					<ul>
-					<li><a class="tradewind" href="#">Our story</a></li>
-					<li><a class="tradewind" href="#">Media</a></li>
+					<li><a class="tradewind" href="story.html">Our story</a></li>
+					<li><a class="tradewind" href="media.html">Media</a></li>
 					</ul>
 					</div>
 				</div>
@@ -309,8 +315,8 @@
 					<h6>Legal</h6>
 					<div id="list-menu-footer">
 					<ul>
-					<li><a class="tradewind" href="#">Term of use</a></li>
-					<li><a class="tradewind" href="#">Privacy policy</a></li>
+					<li><a class="tradewind" href="tou.html">Term of use</a></li>
+					<li><a class="tradewind" href="policy.html">Privacy policy</a></li>
 					</ul>
 					</div>
 				</div>
@@ -318,8 +324,8 @@
 					<h6>Support</h6>
 					<div id="list-menu-footer">
 					<ul>
-					<li><a class="tradewind" href="#">JB Support</a></li>
-					<li><a class="tradewind" href="#">FAQS</a></li>
+					<li><a class="tradewind" href="support.html">JB Support</a></li>
+					<li><a class="tradewind" href="faqs.html">FAQS</a></li>
 					</ul>
 					</div>
 				</div>

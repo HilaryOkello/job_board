@@ -62,7 +62,6 @@ html, body {
 }
 @media (min-width: 992px){
     .search-sec{
-    
         position: relative;
         background: rgb(110, 166, 164, 0.51);
         
@@ -71,6 +70,7 @@ html, body {
 
 @media (max-width: 992px){
     .search-sec{
+   	    padding-top: 4rem;
         background: rgb(110, 166, 164, 0.51);
     }
 }
@@ -256,7 +256,6 @@ html, body {
 }
 
 
-
 /* Jobs Listing Page */
 
 
@@ -295,7 +294,16 @@ html, body {
 	   	box-shadow: 2px 2px;
 	   	transform: translateY(-0.10em)
 }
-
+.details-btnc{
+    background-color: #F9FEFE;
+    border-color:#F48E41;
+   	border-width: 1.5px;
+    
+}
+.details-btnc:hover{
+	   	box-shadow: 2px 2px;
+	   	transform: translateY(-0.10em)
+}
 
 
 /* Job details Modal */
